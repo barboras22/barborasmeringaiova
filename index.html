@@ -6,7 +6,7 @@
 <title>Barbora Šmeringaiová – Svet nečaká</title>
 <meta name="description" content="Barbora Šmeringaiová – online biznis, finančné vzdelávanie a cesta k nezávislosti. Napíš mi na WhatsApp.">
 <meta property="og:title" content="Barbora Šmeringaiová – Svet nečaká">
-<meta property="og:description" content="Online biznis a finančné vzdelávanie krok za krokom. Promo do 20. 10.">
+<meta property="og:description" content="Online biznis, finančné vzdelávanie a osobnostný rast – krok za krokom.">
 <meta property="og:image" content="images/hero.jpg">
 <link rel="alternate" hreflang="sk" href="https://barboras22.github.io/barborasmeringaiova/">
 <link rel="alternate" hreflang="it" href="https://barboras22.github.io/barborasmeringai/">
@@ -15,18 +15,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --em-900:#102E27; --em-700:#1A4236; --em-500:#2E5F51; --em-300:#8DB5A6;
-  --sage-50:#E6EEE9; --sage-100:#D9E6DE; --sage-200:#C7D9CE; --sage-300:#B2CABB;
+  --em-900:#1F1E1B; --em-700:#2D2C29; --em-500:#42413E; --em-300:#AEADAA;
+  --sage-50:#EEEDEA; --sage-100:#E5E4E1; --sage-200:#D7D6D3; --sage-300:#C6C5C2;
   --gold:#B8954E; --gold-soft:#E2CC97;
-  --ink:#1B3A32; --soft:#56716A; --white:#FCFDFB;
-  --line:rgba(35,86,72,.16); --line-dark:rgba(226,204,151,.3);
+  --ink:#282724; --soft:#6D6C69; --white:#FFFEFB;
+  --line:rgba(59,58,55,.16); --line-dark:rgba(226,204,151,.3);
   --font:'Plus Jakarta Sans',system-ui,sans-serif;
   --r:22px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:var(--font);background:var(--sage-100);color:var(--ink);line-height:1.7;font-weight:400;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:inherit;text-decoration:none}
 h1,h2,h3{font-family:var(--font);font-weight:800;line-height:1.08;letter-spacing:-.025em;color:var(--em-900)}
 h1{font-size:clamp(3rem,7vw,5.2rem)}
@@ -38,14 +38,14 @@ strong{font-weight:700}
 section{padding:96px 0}
 .eyebrow{display:inline-block;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--em-500);background:var(--sage-200);padding:6px 14px;border-radius:999px;margin-bottom:1.2rem}
 .sub{color:var(--soft);max-width:660px;font-size:1.05rem}
-.dark{background:var(--em-700);color:#E4EEE9}
+.dark{background:var(--em-700);color:#EEEDEA}
 .dark h1,.dark h2,.dark h3{color:#fff}
 .dark em{color:var(--gold-soft)}
 .dark .eyebrow{background:rgba(255,255,255,.1);color:var(--gold-soft)}
-.dark .sub{color:#C3D6CE}
+.dark .sub{color:#D4D3D0}
 
 .promo-bar{position:fixed;top:0;left:0;right:0;z-index:51;background:var(--gold);color:#fff;text-align:center;font-size:.78rem;font-weight:600;letter-spacing:.04em;padding:7px 12px}
-nav{position:fixed;top:32px;left:0;right:0;z-index:50;background:rgba(217,230,222,.93);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav{position:fixed;top:32px;left:0;right:0;z-index:50;background:rgba(229,228,225,.93);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
 .logo{font-size:1.1rem;font-weight:800;letter-spacing:-.02em;color:var(--em-900)}
 .links{display:flex;gap:24px;align-items:center;font-size:.88rem;font-weight:500;color:var(--soft)}
@@ -53,7 +53,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .ig{display:inline-flex;width:36px;height:36px;border-radius:50%;align-items:center;justify-content:center;border:1px solid var(--line)}
 .ig svg{width:17px;height:17px;fill:currentColor}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:15px 28px;border-radius:999px;background:var(--em-700);color:#fff;font-size:.92rem;font-weight:700;transition:.25s;border:2px solid var(--em-700);cursor:pointer;font-family:var(--font)}
-.btn:hover{background:var(--em-900);border-color:var(--em-900);transform:translateY(-2px);box-shadow:0 14px 30px -14px rgba(23,63,54,.6)}
+.btn:hover{background:var(--em-900);border-color:var(--em-900);transform:translateY(-2px);box-shadow:0 14px 30px -14px rgba(43,42,39,.6)}
 .btn.gold{background:var(--gold);border-color:var(--gold)}
 .btn.gold:hover{background:#A6843F;border-color:#A6843F}
 .btn.ghost{background:transparent;color:var(--em-700);border-color:var(--em-300)}
@@ -63,10 +63,10 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .links .btn{padding:10px 20px;font-size:.84rem;color:#fff}
 
 /* HERO */
-.hero{padding:170px 0 100px;background:radial-gradient(circle at 85% 10%,rgba(226,204,151,.28),transparent 42%),linear-gradient(155deg,#215043 0%,var(--em-700) 55%,#153A30 100%);overflow:hidden}
+.hero{padding:170px 0 100px;background:radial-gradient(circle at 85% 10%,rgba(226,204,151,.28),transparent 42%),linear-gradient(155deg,#373633 0%,var(--em-700) 55%,#272623 100%);overflow:hidden}
 .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
 .hero .q{font-size:clamp(1.3rem,2.4vw,1.75rem);font-weight:600;color:var(--gold-soft);margin:.8rem 0 1.4rem;letter-spacing:-.01em}
-.hero p.lead{font-size:1.06rem;max-width:540px;color:#CFE0D8;margin-bottom:.9rem}
+.hero p.lead{font-size:1.06rem;max-width:540px;color:#DEDDDA;margin-bottom:.9rem}
 .punch{background:rgba(255,255,255,.08);border-left:3px solid var(--gold-soft);border-radius:0 14px 14px 0;padding:16px 20px;max-width:540px;margin:1.6rem 0 2.2rem;color:#fff;font-weight:500}
 .cta{display:flex;gap:12px;flex-wrap:wrap}
 .arch{border-radius:999px 999px 28px 28px;overflow:hidden;aspect-ratio:3/4;box-shadow:0 34px 70px -28px rgba(0,0,0,.55);border:8px solid rgba(255,255,255,.14);position:relative}
@@ -82,7 +82,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 /* ABOUT */
 .about{background:var(--sage-50)}
 .two{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
-.frame{border-radius:var(--r);overflow:hidden;box-shadow:0 30px 60px -32px rgba(23,63,54,.5)}
+.frame{border-radius:var(--r);overflow:hidden;box-shadow:0 30px 60px -32px rgba(43,42,39,.5)}
 .frame img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%}
 .about p{margin-bottom:1rem;color:var(--soft)}
 .about p strong{color:var(--ink)}
@@ -95,13 +95,13 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .mission{background:var(--sage-200)}
 .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:2.5rem}
 .card{background:var(--white);padding:28px 24px;border-radius:var(--r);transition:.3s}
-.card:hover{transform:translateY(-6px);box-shadow:0 22px 40px -26px rgba(23,63,54,.5)}
+.card:hover{transform:translateY(-6px);box-shadow:0 22px 40px -26px rgba(43,42,39,.5)}
 .card .ic{width:42px;height:42px;border-radius:12px;background:var(--sage-200);color:var(--em-700);display:flex;align-items:center;justify-content:center;font-weight:800;margin-bottom:14px}
 .card p{font-size:.93rem;color:var(--soft)}
 .quote{font-size:clamp(1.3rem,2.6vw,1.8rem);font-weight:700;letter-spacing:-.02em;max-width:800px;margin:3.4rem auto 0;text-align:center;line-height:1.35;color:var(--em-900)}
 .quote span{color:var(--gold)}
 
-.fair{margin-top:2.6rem;background:var(--em-700);color:#D3E3DC;border-radius:var(--r);padding:36px;display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:center}
+.fair{margin-top:2.6rem;background:var(--em-700);color:#E1E0DD;border-radius:var(--r);padding:36px;display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:center}
 .fair h3{color:#fff;font-size:clamp(1.3rem,2.4vw,1.7rem);line-height:1.25;margin-bottom:.8rem}
 .fair h3 em{color:var(--gold-soft)}
 .mission .fair .eyebrow{background:rgba(255,255,255,.1);color:var(--gold-soft)}
@@ -121,12 +121,12 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 /* CESTA */
 .journey{background:var(--sage-50)}
 .jgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:2.8rem}
-.jgrid figure{background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:0 18px 40px -30px rgba(23,63,54,.45)}
+.jgrid figure{background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:0 18px 40px -30px rgba(43,42,39,.45)}
 .jgrid img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 25%}
 .jgrid figcaption{padding:18px 20px 22px;font-size:.92rem;color:var(--soft)}
 .jgrid figcaption b{display:block;font-size:1.02rem;font-weight:800;color:var(--ink);margin-bottom:4px}
-.jgrid figure.today{background:var(--em-700);color:#D3E3DC}
-.jgrid figure.today figcaption{color:#D3E3DC}
+.jgrid figure.today{background:var(--em-700);color:#E1E0DD}
+.jgrid figure.today figcaption{color:#E1E0DD}
 .jgrid figure.today b{color:var(--gold-soft)}
 
 /* KROKY */
@@ -140,7 +140,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .dgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:2.6rem}
 .doubt{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:26px}
 .doubt h3{color:var(--gold-soft)}
-.doubt p{font-size:.95rem;color:#CFE0D8}
+.doubt p{font-size:.95rem;color:#DEDDDA}
 .deal{margin-top:2.4rem;background:var(--white);color:var(--ink);border-radius:var(--r);padding:34px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center}
 .deal .pct{display:flex;gap:10px}
 .deal .pct div{text-align:center;border-radius:18px;padding:16px 18px;min-width:110px}
@@ -158,25 +158,25 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 /* ALBUM */
 .album{background:var(--em-900)}
 .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:1.8rem 0 2rem}
-.tab{padding:9px 20px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:transparent;color:#CFE0D8;font:600 .85rem var(--font);cursor:pointer;transition:.25s}
+.tab{padding:9px 20px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:transparent;color:#DEDDDA;font:600 .85rem var(--font);cursor:pointer;transition:.25s}
 .tab:hover{border-color:var(--gold-soft)}
 .tab.on{background:var(--gold-soft);color:var(--em-900);border-color:var(--gold-soft)}
 .grid{columns:3;column-gap:16px}
 .grid figure{break-inside:avoid;margin-bottom:16px;border-radius:18px;overflow:hidden;position:relative;cursor:zoom-in;background:var(--em-700)}
 .grid figure.hide{display:none}
-.grid img{width:100%;transition:transform .6s}
+.grid img{width:100%;height:auto;transition:transform .6s}
 .grid figure:hover img{transform:scale(1.04)}
-.grid figcaption{padding:14px 16px 16px;font-size:.88rem;color:#D3E3DC;line-height:1.55}
-.lb{position:fixed;inset:0;background:rgba(8,22,18,.94);z-index:100;display:none;align-items:center;justify-content:center;padding:24px}
+.grid figcaption{padding:14px 16px 16px;font-size:.88rem;color:#E1E0DD;line-height:1.55}
+.lb{position:fixed;inset:0;background:rgba(14,13,10,.94);z-index:100;display:none;align-items:center;justify-content:center;padding:24px}
 .lb.open{display:flex}
 .lb img{max-height:80vh;max-width:92vw;border-radius:14px}
-.lb p{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#E6EFEA;font-size:.95rem;padding:0 24px;max-width:760px;margin:0 auto}
+.lb p{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#EFEEEB;font-size:.95rem;padding:0 24px;max-width:760px;margin:0 auto}
 .lb button{position:absolute;background:none;border:0;color:#fff;font-size:2.4rem;cursor:pointer;padding:12px 18px}
 .lb .x{top:10px;right:14px}.lb .pv{left:8px;top:50%}.lb .nx{right:8px;top:50%}
 
 /* PROMO */
 .promo-sec{background:var(--sage-100)}
-.promo{position:relative;overflow:hidden;text-align:center;border-radius:28px;padding:60px 28px;background:linear-gradient(140deg,#215043,var(--em-700));color:#D3E3DC}
+.promo{position:relative;overflow:hidden;text-align:center;border-radius:28px;padding:60px 28px;background:linear-gradient(140deg,#373633,var(--em-700));color:#E1E0DD}
 .promo h2{color:#fff;font-size:clamp(2rem,4.6vw,3.1rem)}
 .promo h2 em{color:var(--gold-soft)}
 .promo p{max-width:560px;margin:0 auto 2rem}
@@ -196,10 +196,10 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .inquiry{background:var(--sage-200)}
 .inquiry .two{align-items:start}
 .inquiry .two>div>p{color:var(--soft);margin-bottom:1rem}
-form{background:var(--white);padding:34px;border-radius:24px;box-shadow:0 30px 60px -38px rgba(23,63,54,.55);display:grid;gap:16px}
+form{background:var(--white);padding:34px;border-radius:24px;box-shadow:0 30px 60px -38px rgba(43,42,39,.55);display:grid;gap:16px}
 .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 label{font-size:.8rem;font-weight:700;color:var(--ink);display:block;margin-bottom:6px}
-input,select,textarea{width:100%;padding:13px 15px;border:1.5px solid var(--sage-300);border-radius:12px;background:var(--sage-50);font:400 .98rem var(--font);color:var(--ink);outline:none;transition:.2s}
+input,select,textarea{width:100%;padding:13px 15px;border:1.5px solid var(--sage-300);border-radius:12px;background:var(--sage-50);font:400 1rem var(--font);color:var(--ink);outline:none;transition:.2s}
 input:focus,select:focus,textarea:focus{border-color:var(--em-500);background:#fff}
 textarea{min-height:100px;resize:vertical}
 .chk{display:flex;gap:10px;align-items:flex-start}
@@ -211,12 +211,12 @@ textarea{min-height:100px;resize:vertical}
 .contact{background:var(--sage-50)}
 .contact .frame img{aspect-ratio:1/1;object-position:50% 40%}
 .chan{display:grid;gap:12px;margin:1.6rem 0 2rem}
-.chan a{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;border-radius:16px;background:var(--white);font-weight:700;transition:.25s;box-shadow:0 10px 30px -24px rgba(23,63,54,.5)}
+.chan a{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;border-radius:16px;background:var(--white);font-weight:700;transition:.25s;box-shadow:0 10px 30px -24px rgba(43,42,39,.5)}
 .chan a:hover{transform:translateX(4px);background:var(--em-700);color:#fff}
 .chan small{font-size:.85rem;font-weight:500;color:var(--em-500)}
 .chan a:hover small{color:var(--gold-soft)}
 
-footer{padding:44px 0 96px;font-size:.8rem;color:#B9CEC5;background:var(--em-900)}
+footer{padding:44px 0 96px;font-size:.8rem;color:#CBCAC7;background:var(--em-900)}
 footer p{max-width:820px;margin-bottom:.7rem}
 footer .en{color:#fff;font-weight:600}
 footer a{color:var(--gold-soft);font-weight:600}
@@ -313,21 +313,21 @@ footer a{color:var(--gold-soft);font-weight:600}
   --brass-line:rgba(214,184,120,.5);
 }
 /* tmavý kameň – Verde Alpi */
-.hero{background:radial-gradient(circle at 82% 12%,rgba(226,204,151,.22),transparent 40%),linear-gradient(155deg,rgba(36,88,73,.48),rgba(18,52,43,.74)),var(--m-dark) center/1100px}
-.doubts.dark{background:linear-gradient(rgba(26,66,54,.70),rgba(20,56,46,.80)),var(--m-dark) 30% 0/1000px}
-.album.dark{background:linear-gradient(rgba(16,46,39,.80),rgba(16,46,39,.86)),var(--m-dark) 70% 0/1000px}
-.marquee{background:linear-gradient(rgba(16,46,39,.55),rgba(16,46,39,.55)),var(--m-dark) 0 40%/800px;box-shadow:inset 0 1px 0 var(--brass-line),inset 0 -1px 0 var(--brass-line)}
+.hero{background:radial-gradient(circle at 82% 12%,rgba(226,204,151,.22),transparent 40%),linear-gradient(155deg,rgba(61,60,57,.48),rgba(35,34,31,.74)),var(--m-dark) center/1100px}
+.doubts.dark{background:linear-gradient(rgba(45,44,41,.70),rgba(38,37,34,.80)),var(--m-dark) 30% 0/1000px}
+.album.dark{background:linear-gradient(rgba(31,30,27,.80),rgba(31,30,27,.86)),var(--m-dark) 70% 0/1000px}
+.marquee{background:linear-gradient(rgba(31,30,27,.55),rgba(31,30,27,.55)),var(--m-dark) 0 40%/800px;box-shadow:inset 0 1px 0 var(--brass-line),inset 0 -1px 0 var(--brass-line)}
 .marquee b{display:inline-block;width:7px;height:7px;transform:rotate(45deg);background:var(--brass);vertical-align:middle}
-footer{background:linear-gradient(rgba(12,36,30,.86),rgba(12,36,30,.90)),var(--m-dark) center/1000px;box-shadow:inset 0 1px 0 var(--brass-line)}
+footer{background:linear-gradient(rgba(24,23,20,.86),rgba(24,23,20,.90)),var(--m-dark) center/1000px;box-shadow:inset 0 1px 0 var(--brass-line)}
 /* svetlý kameň – celadon */
-.about,.journey,.contact{background:linear-gradient(rgba(234,241,236,.42),rgba(234,241,236,.42)),var(--m-light) 0 0/1000px}
-.mission,.inquiry{background:linear-gradient(rgba(199,217,206,.50),rgba(199,217,206,.50)),var(--m-light) 40% 0/1000px}
-.path,.promo-sec{background:linear-gradient(rgba(217,230,222,.48),rgba(217,230,222,.48)),var(--m-light) 80% 0/1000px}
+.about,.journey,.contact{background:linear-gradient(rgba(241,240,237,.42),rgba(241,240,237,.42)),var(--m-light) 0 0/1000px}
+.mission,.inquiry{background:linear-gradient(rgba(215,214,211,.50),rgba(215,214,211,.50)),var(--m-light) 40% 0/1000px}
+.path,.promo-sec{background:linear-gradient(rgba(229,228,225,.48),rgba(229,228,225,.48)),var(--m-light) 80% 0/1000px}
 
 /* portrét v mramorovom oblúku */
 .arch{border:0;padding:12px;background:var(--m-white) 30% 20%/520px;box-shadow:0 34px 70px -28px rgba(0,0,0,.6),inset 0 0 0 1px rgba(197,155,69,.65)}
 .arch img{border-radius:999px 999px 16px 16px;box-shadow:0 0 0 1.5px #C9A24F}
-.badge{background:var(--brass);color:#102E27;box-shadow:0 10px 22px -10px rgba(0,0,0,.55)}
+.badge{background:var(--brass);color:#1F1E1B;box-shadow:0 10px 22px -10px rgba(0,0,0,.55)}
 
 /* štítky nad nadpismi – zlatý kosoštvorec namiesto veľkých písmen */
 .eyebrow,.dark .eyebrow,.mission .eyebrow,.inquiry .eyebrow,.promo .eyebrow,.mission .fair .eyebrow{display:inline-flex;align-items:center;flex-wrap:wrap;gap:6px 10px;background:none;padding:0;border-radius:0;text-transform:none;letter-spacing:.01em;font-size:.9rem;font-weight:700;color:var(--em-500)}
@@ -336,41 +336,41 @@ footer{background:linear-gradient(rgba(12,36,30,.86),rgba(12,36,30,.90)),var(--m
 .eyebrow .sep{display:inline-block;width:5px;height:5px;transform:rotate(45deg);background:var(--brass);opacity:.85}
 
 /* kartičky – svetlé dlaždice so zlatou intarziou */
-.card,.step{border-radius:14px;border:1px solid rgba(184,149,78,.24);background:rgba(252,253,251,.94);box-shadow:0 22px 40px -32px rgba(16,46,39,.55)}
-.card .ic{width:22px;height:22px;border-radius:3px;transform:rotate(45deg);background:var(--m-white) center/160px;border:1.5px solid #C49A4E;margin:4px 0 20px 4px;box-shadow:0 4px 10px -4px rgba(16,46,39,.45)}
+.card,.step{border-radius:14px;border:1px solid rgba(184,149,78,.24);background:rgba(255,254,251,.94);box-shadow:0 22px 40px -32px rgba(31,30,27,.55)}
+.card .ic{width:22px;height:22px;border-radius:3px;transform:rotate(45deg);background:var(--m-white) center/160px;border:1.5px solid #C49A4E;margin:4px 0 20px 4px;box-shadow:0 4px 10px -4px rgba(31,30,27,.45)}
 .step::before{background:var(--brass);-webkit-background-clip:text;background-clip:text;color:transparent}
 .stats div{background:rgba(255,255,255,.55);border:1px solid rgba(184,149,78,.25);border-radius:12px}
-.doubt{border-radius:14px;background:rgba(10,32,27,.32);border-color:rgba(226,204,151,.22)}
+.doubt{border-radius:14px;background:rgba(21,20,17,.32);border-color:rgba(226,204,151,.22)}
 
 /* cesta */
 .jgrid figure{border-radius:16px;border:1px solid rgba(184,149,78,.24)}
-.jgrid figure.today{background:linear-gradient(rgba(26,66,54,.55),rgba(26,66,54,.55)),var(--m-dark) center/600px;border-color:rgba(226,204,151,.55)}
+.jgrid figure.today{background:linear-gradient(rgba(45,44,41,.55),rgba(45,44,41,.55)),var(--m-dark) center/600px;border-color:rgba(226,204,151,.55)}
 
 /* bloky z kameňa */
-.fair{background:linear-gradient(rgba(26,66,54,.55),rgba(20,56,46,.72)),var(--m-dark) 20% 30%/900px;border:1px solid rgba(226,204,151,.35)}
+.fair{background:linear-gradient(rgba(45,44,41,.55),rgba(38,37,34,.72)),var(--m-dark) 20% 30%/900px;border:1px solid rgba(226,204,151,.35)}
 .fair li{background:rgba(255,255,255,.07);border:1px solid rgba(226,204,151,.16)}
 .partner{background:linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,.35)),var(--m-white) 60% 40%/800px;border:1px solid rgba(197,155,69,.55)}
 .deal{position:relative;border-radius:18px;background:linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)),var(--m-white) 20% 60%/800px;border:1px solid rgba(197,155,69,.6)}
 .deal::after{content:"";position:absolute;inset:8px;border:1px solid rgba(197,155,69,.35);border-radius:12px;pointer-events:none}
 .deal .pct div:first-child{background:rgba(255,255,255,.78);border:1px solid rgba(197,155,69,.4)}
-.deal .pct div:last-child{background:var(--brass);color:#102E27}
-.promo{background:radial-gradient(circle at 85% 0%,rgba(226,204,151,.22),transparent 45%),linear-gradient(140deg,rgba(36,88,73,.45),rgba(20,56,46,.70)),var(--m-dark) 60% 40%/900px;border:1px solid rgba(226,204,151,.55)}
+.deal .pct div:last-child{background:var(--brass);color:#1F1E1B}
+.promo{background:radial-gradient(circle at 85% 0%,rgba(226,204,151,.22),transparent 45%),linear-gradient(140deg,rgba(61,60,57,.45),rgba(38,37,34,.70)),var(--m-dark) 60% 40%/900px;border:1px solid rgba(226,204,151,.55)}
 .promo::before{display:none}
 .promo::after{content:"";position:absolute;inset:10px;border:1px solid rgba(226,204,151,.3);border-radius:20px;pointer-events:none}
-.offer>div:not(.or){background:var(--brass);color:#102E27}
+.offer>div:not(.or){background:var(--brass);color:#1F1E1B}
 .cd div{background:rgba(255,255,255,.08);border:1px solid rgba(226,204,151,.25)}
 
 /* fotky s jemným zlatým rámikom */
 .frame{position:relative;border-radius:18px}
 .frame::after{content:"";position:absolute;inset:12px;border:1px solid rgba(240,226,190,.75);border-radius:10px;pointer-events:none}
-.grid figure{background:rgba(26,66,54,.92);border:1px solid rgba(226,204,151,.14)}
+.grid figure{background:rgba(45,44,41,.92);border:1px solid rgba(226,204,151,.14)}
 
 /* zlato ako mosadz */
-.btn.gold{background:var(--brass);border-color:#C9A55C;color:#102E27}
+.btn.gold{background:var(--brass);border-color:#C9A55C;color:#1F1E1B}
 .btn.gold:hover{background:var(--brass);border-color:#C9A55C;filter:brightness(1.06)}
-.promo-bar{background:var(--brass);color:#102E27}
+.promo-bar{background:var(--brass);color:#1F1E1B}
 .wa{background:var(--brass)}
-.wa svg{fill:#102E27}
+.wa svg{fill:#1F1E1B}
 .chan a{background:rgba(255,255,255,.86);border:1px solid rgba(184,149,78,.2)}
 form{border:1px solid rgba(184,149,78,.25);border-radius:20px}
 
@@ -390,11 +390,11 @@ a:focus-visible,.btn:focus-visible,button:focus-visible{outline:2px solid #D2B06
 }
 
 /* ===== AKVAREL / DYM – jemné doladenie ===== */
-.hero{background:radial-gradient(circle at 82% 12%,rgba(226,204,151,.20),transparent 40%),linear-gradient(155deg,rgba(36,88,73,.22),rgba(18,52,43,.52)),var(--m-dark) center/1100px}
-.doubts.dark{background:linear-gradient(rgba(26,66,54,.50),rgba(20,56,46,.62)),var(--m-dark) 30% 0/1000px}
-.album.dark{background:linear-gradient(rgba(16,46,39,.66),rgba(16,46,39,.74)),var(--m-dark) 70% 0/1000px}
-.about,.journey,.contact{background:linear-gradient(rgba(240,245,241,.38),rgba(240,245,241,.38)),var(--m-light) 0 0/1000px}
-.about p,.journey .sub,.contact .sub,.mission .sub,.path .sub,.inquiry .two>div>p{color:#47625A}
+.hero{background:radial-gradient(circle at 82% 12%,rgba(226,204,151,.20),transparent 40%),linear-gradient(155deg,rgba(61,60,57,.22),rgba(35,34,31,.52)),var(--m-dark) center/1100px}
+.doubts.dark{background:linear-gradient(rgba(45,44,41,.50),rgba(38,37,34,.62)),var(--m-dark) 30% 0/1000px}
+.album.dark{background:linear-gradient(rgba(31,30,27,.66),rgba(31,30,27,.74)),var(--m-dark) 70% 0/1000px}
+.about,.journey,.contact{background:linear-gradient(rgba(246,245,242,.38),rgba(246,245,242,.38)),var(--m-light) 0 0/1000px}
+.about p,.journey .sub,.contact .sub,.mission .sub,.path .sub,.inquiry .two>div>p{color:#5E5D5A}
 @media(max-width:600px){
   .hero{background-size:auto,auto,760px}
   .about,.journey,.contact,.doubts.dark,.album.dark{background-size:auto,760px}
@@ -426,25 +426,25 @@ footer{margin-top:calc(-1*var(--e));padding-top:calc(var(--e) + 40px);box-shadow
   mask:url(images/blend-top.webp) top/var(--ew) var(--e) repeat-x,linear-gradient(#000,#000) bottom/100% calc(100% - var(--e) + 1px) no-repeat}
 
 /* ===================== VIDEÁ ===================== */
-.videos{background:linear-gradient(rgba(199,217,206,.50),rgba(199,217,206,.50)),var(--m-light) 30% 0/1000px}
+.videos{background:linear-gradient(rgba(215,214,211,.50),rgba(215,214,211,.50)),var(--m-light) 30% 0/1000px}
 .vgrid{display:flex;flex-wrap:wrap;justify-content:center;gap:28px;margin-top:2.4rem}
-.vcard{margin:0;flex:0 1 380px;min-width:0;background:linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,.35)),var(--m-white) 40% 30%/700px;border:1px solid rgba(197,155,69,.55);border-radius:20px;padding:12px;box-shadow:0 26px 50px -34px rgba(16,46,39,.6)}
+.vcard{margin:0;flex:0 1 380px;min-width:0;background:linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,.35)),var(--m-white) 40% 30%/700px;border:1px solid rgba(197,155,69,.55);border-radius:20px;padding:12px;box-shadow:0 26px 50px -34px rgba(31,30,27,.6)}
 .vcard .instagram-media{margin:0!important;min-width:0!important;width:100%!important;max-width:100%!important;border-radius:12px!important;border:0!important;box-shadow:none!important}
 .vcard blockquote.instagram-media{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:440px;background:rgba(255,255,255,.88);padding:24px;text-align:center}
-.vcard blockquote.instagram-media a{display:inline-flex;flex-direction:column;align-items:center;gap:14px;color:#102E27;font-weight:700;text-decoration:none}
-.vcard .play{width:56px;height:56px;border-radius:50%;background:var(--brass);position:relative;box-shadow:0 10px 22px -10px rgba(16,46,39,.6)}
-.vcard .play::after{content:"";position:absolute;left:22px;top:18px;border-left:17px solid #102E27;border-top:10px solid transparent;border-bottom:10px solid transparent}
+.vcard blockquote.instagram-media a{display:inline-flex;flex-direction:column;align-items:center;gap:14px;color:#1F1E1B;font-weight:700;text-decoration:none}
+.vcard .play{width:56px;height:56px;border-radius:50%;background:var(--brass);position:relative;box-shadow:0 10px 22px -10px rgba(31,30,27,.6)}
+.vcard .play::after{content:"";position:absolute;left:22px;top:18px;border-left:17px solid #1F1E1B;border-top:10px solid transparent;border-bottom:10px solid transparent}
 .vmore{text-align:center;margin-top:2.2rem}
 
 /* ===================== JAZYKY ===================== */
 nav .links a.lang.lang{display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 12px;border-radius:999px;border:1px solid var(--line);font-size:.8rem;font-weight:800;letter-spacing:.02em;color:var(--em-700);text-decoration:none;white-space:nowrap}
 nav .links a.lang.lang:hover{border-color:var(--em-500)}
 @media(max-width:820px){nav .links a.lang.lang{display:none}}
-.langtip{position:fixed;left:14px;bottom:14px;z-index:61;display:none;width:min(360px,calc(100% - 88px));background:var(--brass);color:#102E27;border-radius:18px;padding:12px 42px 13px 14px;box-shadow:0 16px 36px -14px rgba(0,0,0,.55);font-size:.9rem;font-weight:700;line-height:1.35}
+.langtip{position:fixed;left:14px;bottom:14px;z-index:61;display:none;width:min(360px,calc(100% - 88px));background:var(--brass);color:#1F1E1B;border-radius:18px;padding:12px 42px 13px 14px;box-shadow:0 16px 36px -14px rgba(0,0,0,.55);font-size:.9rem;font-weight:700;line-height:1.35}
 .langtip.on{display:block;animation:tipIn .5s ease both}
 .langtip p{margin:0 0 10px}
-.langtip a{display:inline-block;background:#102E27;color:#fff;border-radius:999px;padding:9px 15px;text-decoration:none;font-weight:700;font-size:.86rem}
-.langtip button{position:absolute;top:7px;right:7px;width:30px;height:30px;border-radius:50%;border:0;background:rgba(16,46,39,.12);color:#102E27;font:700 1.15rem/1 var(--font);cursor:pointer}
+.langtip a{display:inline-block;background:#1F1E1B;color:#fff;border-radius:999px;padding:9px 15px;text-decoration:none;font-weight:700;font-size:.86rem}
+.langtip button{position:absolute;top:7px;right:7px;width:30px;height:30px;border-radius:50%;border:0;background:rgba(31,30,27,.12);color:#1F1E1B;font:700 1.15rem/1 var(--font);cursor:pointer}
 @keyframes tipIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.langtip.on{animation:none}}
 
@@ -456,7 +456,7 @@ nav .links a.lang.lang:hover{border-color:var(--em-500)}
 }
 
 /* ===================== POČET NÁVŠTEV ===================== */
-.visits{display:flex;align-items:flex-start;gap:10px;margin:22px 0 0;font-size:.92rem;line-height:1.5;color:#CFE0D8}
+.visits{display:flex;align-items:flex-start;gap:10px;margin:22px 0 0;font-size:.92rem;line-height:1.5;color:#DEDDDA}
 .visits[hidden]{display:none}
 .visits b{color:#fff;font-weight:800;font-size:1.05rem;letter-spacing:-.01em}
 .visits .pulse{width:9px;height:9px;margin-top:.5em;border-radius:50%;background:#E2C27E;flex:none;animation:pulse 2.4s ease-out infinite}
@@ -472,20 +472,183 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
   nav .links a.lang.lang .fl{font-size:1.15rem}
 }
 @media(max-width:380px){.logo{font-size:.86rem}nav .links .btn{padding:10px 14px}}
+
+/* ===================== ČIERNO-BIELY MRAMOR ===================== */
+nav{background:rgba(248,247,244,.94)}
+em{color:#9A7A3E}
+.dark em,.fair h3 em,.promo h2 em{color:var(--gold-soft)}
+
+/* ===================== TEST: KDE SA NACHÁDZAŠ ===================== */
+.quiz{background:linear-gradient(rgba(238,237,234,.52),rgba(238,237,234,.52)),var(--m-light) 55% 0/1000px}
+.calc.dark{background:linear-gradient(rgba(45,44,41,.62),rgba(31,30,27,.74)),var(--m-dark) 60% 20%/1000px}
+.quiz,.calc.dark{position:relative;z-index:2;margin-top:calc(-1*var(--e));
+  -webkit-mask:url(images/blend-top.webp) top/var(--ew) var(--e) repeat-x,linear-gradient(#000,#000) bottom/100% calc(100% - var(--e) + 1px) no-repeat;
+  mask:url(images/blend-top.webp) top/var(--ew) var(--e) repeat-x,linear-gradient(#000,#000) bottom/100% calc(100% - var(--e) + 1px) no-repeat}
+.qcard{position:relative;max-width:760px;margin:2.4rem auto 0;border-radius:20px;padding:34px 36px 30px;
+  background:linear-gradient(rgba(255,255,255,.62),rgba(255,255,255,.62)),var(--m-white) 30% 50%/800px;border:1px solid rgba(197,155,69,.6);box-shadow:0 30px 60px -40px rgba(31,30,27,.55)}
+.qcard::after{content:"";position:absolute;inset:8px;border:1px solid rgba(197,155,69,.32);border-radius:14px;pointer-events:none}
+.qtop{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:22px}
+.qprog{display:flex;align-items:center;gap:14px;padding-left:2px}
+.qprog i{width:11px;height:11px;transform:rotate(45deg);border:1.5px solid #B8954E;background:transparent;transition:background .3s}
+.qprog i.done{background:var(--brass)}
+.qprog i.now{box-shadow:0 0 0 4px rgba(214,178,108,.22)}
+.qstep{font-size:.84rem;font-weight:600;color:var(--soft)}
+.qq h3{font-size:clamp(1.25rem,2.4vw,1.55rem);line-height:1.25;margin:0 0 18px}
+.qopts{display:grid;gap:10px}
+.qopt{display:flex;align-items:center;gap:14px;width:100%;text-align:left;padding:15px 18px;border-radius:14px;cursor:pointer;
+  font:600 .98rem/1.4 var(--font);color:var(--ink);background:rgba(255,255,255,.82);border:1px solid rgba(184,149,78,.38);transition:border-color .2s,background .2s,transform .2s}
+.qopt::before{content:"";flex:none;width:10px;height:10px;transform:rotate(45deg);border:1.5px solid #B8954E;transition:background .2s}
+.qopt:hover{border-color:#B8954E;background:#fff}
+.qopt[aria-pressed="true"]{border-color:#B8954E;background:#F6EEDB}
+.qopt[aria-pressed="true"]::before{background:var(--brass)}
+.qopt:focus-visible{outline:2px solid #B8954E;outline-offset:2px}
+.qnav{display:flex;justify-content:space-between;align-items:center;margin-top:18px;min-height:24px}
+.qlink{background:none;border:0;padding:4px 0;font:600 .9rem var(--font);color:var(--soft);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.qlink:hover{color:var(--ink)}
+.qlink[hidden],.qnav[hidden]{display:none}
+.qres h3{font-size:clamp(1.45rem,3vw,1.95rem);line-height:1.2;margin:4px 0 12px}
+.qres .qkick{font-size:.84rem;font-weight:700;color:#9A7A3E;margin:0}
+.qres p{color:#4A4946;margin:0 0 14px}
+.qres ul{list-style:none;margin:6px 0 22px;padding:0;display:grid;gap:10px}
+.qres li{position:relative;padding-left:24px;color:#3A3936;font-size:.97rem}
+.qres li::before{content:"";position:absolute;left:3px;top:.55em;width:8px;height:8px;transform:rotate(45deg);background:var(--brass)}
+.qcta{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.qfade{animation:qIn .35s ease both}
+@keyframes qIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+/* ===================== KALKULAČKA ===================== */
+.ccard{margin-top:2.4rem;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:28px;align-items:start;
+  border-radius:20px;padding:30px;background:rgba(18,17,15,.55);border:1px solid rgba(226,204,151,.32)}
+.cin label{display:flex;justify-content:space-between;align-items:baseline;gap:12px;color:#D9D7D2;font-size:.95rem;font-weight:600;margin:0 0 10px}
+.cin output{color:#fff;font-weight:800;font-size:1.15rem;letter-spacing:-.01em}
+.cin input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:28px;padding:0;margin:0 0 22px;border:0;background:transparent;cursor:pointer}
+.cin input[type=range]::-webkit-slider-runnable-track{height:6px;border-radius:999px;background:linear-gradient(90deg,#C9A55C 0 var(--p,30%),rgba(255,255,255,.18) var(--p,30%) 100%)}
+.cin input[type=range]::-moz-range-track{height:6px;border-radius:999px;background:rgba(255,255,255,.18)}
+.cin input[type=range]::-moz-range-progress{height:6px;border-radius:999px;background:#C9A55C}
+.cin input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:24px;height:24px;margin-top:-9px;border-radius:50%;background:var(--brass);border:3px solid #1F1E1B;box-shadow:0 0 0 1px rgba(226,204,151,.6)}
+.cin input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:#D4B26C;border:3px solid #1F1E1B;box-shadow:0 0 0 1px rgba(226,204,151,.6)}
+.cin input[type=range]:focus-visible{outline:2px solid #D2B06A;outline-offset:4px;border-radius:8px}
+.cpaid{margin:4px 0 0;padding-top:16px;border-top:1px solid rgba(226,204,151,.22);color:#CFCDC8;font-size:.95rem}
+.cpaid b{display:block;color:#fff;font-size:1.7rem;font-weight:800;letter-spacing:-.02em;line-height:1.2}
+.cchart{margin:0;background:#1C1B19;border-radius:14px;padding:20px 20px 16px;position:relative}
+.cchart figcaption{color:#E9E7E2;font-weight:700;font-size:.98rem;margin:0 0 4px}
+.cchart .cunit{color:#A9A6A0;font-size:.82rem;margin:0 0 16px}
+.cplot{position:relative;padding-top:4px}
+.ckey{display:flex;align-items:center;gap:8px;margin:-8px 0 16px;color:#D9D7D2;font-size:.82rem;font-weight:600}
+.ckey i{width:0;height:16px;border-left:2px solid #F2EFE8}
+.ctick{position:absolute;top:-4px;height:28px;width:0;border-left:2px solid #F2EFE8;z-index:1;pointer-events:none;transition:left .35s ease}
+.crow{margin:0 0 16px}
+.crow:last-child{margin-bottom:4px}
+.cname{display:block;color:#E9E7E2;font-size:.9rem;font-weight:600;line-height:1.3;margin:0 0 6px}
+.cname small{display:block;color:#A9A6A0;font-weight:500;font-size:.78rem}
+.cbarwrap{position:relative;height:20px}
+.cbar{position:absolute;left:0;top:0;height:20px;border-radius:0 4px 4px 0;background:#6E6B66;transition:width .35s ease;outline:none;cursor:default}
+.cbar.hi{background:#B88C2E}
+.cbar:focus-visible{box-shadow:0 0 0 2px #1C1B19,0 0 0 4px #E2CC97}
+.cbar:hover{filter:brightness(1.12)}
+.cval{position:absolute;top:50%;transform:translateY(-50%);white-space:nowrap;color:#fff;font-weight:700;font-size:.92rem;transition:left .35s ease;pointer-events:none;z-index:2;background:#1C1B19;padding:5px 6px;border-radius:4px;line-height:1.2}
+.ctip{position:absolute;z-index:5;pointer-events:none;min-width:190px;max-width:240px;background:#F7F5F0;color:#1F1E1B;border-radius:10px;padding:10px 12px;font-size:.82rem;line-height:1.4;box-shadow:0 12px 30px -10px rgba(0,0,0,.6);opacity:0;transition:opacity .15s}
+.ctip.on{opacity:1}
+.ctip b{display:block;font-size:1rem;font-weight:800}
+.ctable{margin-top:10px}
+.ctable summary{cursor:pointer;color:#CFCDC8;font-size:.84rem;font-weight:600;padding:6px 0}
+.ctable table{width:100%;border-collapse:collapse;margin-top:6px;font-size:.84rem;color:#E9E7E2;font-variant-numeric:tabular-nums}
+.ctable th,.ctable td{padding:7px 6px;border-bottom:1px solid rgba(255,255,255,.1);text-align:right}
+.ctable th:first-child,.ctable td:first-child{text-align:left}
+.ctable th{color:#A9A6A0;font-weight:600}
+.cinsight{grid-column:1/-1;margin:0;padding:16px 18px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(226,204,151,.2);color:#E9E7E2;font-size:1rem}
+.cinsight b{color:#fff}
+.cshort{margin-top:22px;display:grid;grid-template-columns:1fr auto;gap:18px 28px;align-items:center;border-radius:20px;padding:26px 30px;
+  background:linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)),var(--m-white) 70% 30%/800px;border:1px solid rgba(197,155,69,.6);color:var(--ink)}
+.cshort h3{color:var(--em-900);margin:0 0 6px;font-size:1.25rem}
+.cshort p{margin:0;color:#4A4946}
+.cnote{margin:18px 0 0;font-size:.8rem;line-height:1.6;color:#BDBAB4;max-width:900px}
+
+.herotest{margin:16px 0 0;font-size:.95rem;color:#D4D3D0}
+.herotest a{color:#F0E2BC;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.herotest a:hover{color:#fff}
+
+@media(max-width:900px){
+  .ccard{grid-template-columns:1fr}
+  .cshort{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .quiz,.calc.dark{background-size:auto,760px}
+  .qcard{padding:24px 18px 20px}
+  .qcard::after{inset:6px;border-radius:12px}
+  .qopt{padding:13px 14px;font-size:.93rem}
+  .ccard{padding:18px;gap:20px}
+  .cchart{padding:16px 14px 12px}
+  .cshort{padding:22px 20px}
+  .cshort .btn{width:100%;justify-content:center}
+  .qcta .btn{width:100%;justify-content:center}
+}
+@media (prefers-reduced-motion:reduce){.qfade{animation:none}.cbar,.cval{transition:none}}
+
+/* ===================== CITÁT ===================== */
+.saying{background:linear-gradient(rgba(238,237,234,.5),rgba(238,237,234,.5)),var(--m-light) 20% 0/1000px;position:relative;z-index:2;margin-top:calc(-1*var(--e));
+  -webkit-mask:url(images/blend-top.webp) top/var(--ew) var(--e) repeat-x,linear-gradient(#000,#000) bottom/100% calc(100% - var(--e) + 1px) no-repeat;
+  mask:url(images/blend-top.webp) top/var(--ew) var(--e) repeat-x,linear-gradient(#000,#000) bottom/100% calc(100% - var(--e) + 1px) no-repeat}
+.quoteband{margin:0 auto;max-width:960px}
+.quoteband .lz{display:block;width:14px;height:14px;transform:rotate(45deg);background:var(--brass);margin:0 0 26px 3px}
+.quoteband blockquote{margin:0}
+.quoteband blockquote p{margin:0;font-weight:800;font-size:clamp(1.75rem,4.2vw,3.15rem);line-height:1.14;letter-spacing:-.025em;color:var(--em-900);text-wrap:balance}
+.quoteband blockquote em{color:#9A7A3E}
+.quoteband figcaption{display:flex;align-items:center;gap:12px;margin:26px 0 0;font-weight:700;color:#5E5D5A;font-size:.98rem}
+.quoteband figcaption::before{content:"";width:34px;height:2px;background:var(--brass)}
+.saying-sub{margin:22px 0 0;max-width:640px;color:#5E5D5A;font-size:1.06rem}
+@media(max-width:600px){.saying{background-size:auto,760px}.quoteband .lz{width:11px;height:11px;margin-bottom:20px}}
+
+/* ===================== BEZ PROMA ===================== */
+nav{top:0}
+/* album pokračuje rovno do formulára – len jeden preliv (formulár sa vlieva do albumu) */
+.noevent .album.dark{margin-bottom:0;
+  -webkit-mask:url(images/blend-top.webp) top/var(--ew) var(--e) repeat-x,linear-gradient(#000,#000) bottom/100% calc(100% - var(--e) + 1px) no-repeat;
+  mask:url(images/blend-top.webp) top/var(--ew) var(--e) repeat-x,linear-gradient(#000,#000) bottom/100% calc(100% - var(--e) + 1px) no-repeat}
+
+/* ===================== ONLINE EVENT ===================== */
+.event .promo{padding:56px 30px}
+.event .promo h2{margin-bottom:.6rem}
+.evdays{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:640px;margin:0 auto 22px;position:relative}
+.evday{border-radius:16px;padding:16px 18px;text-align:left;background:rgba(255,255,255,.07);border:1px solid rgba(226,204,151,.35)}
+.evday b{display:block;color:var(--gold-soft);font-size:1.12rem;font-weight:800;letter-spacing:-.01em}
+.evday span{display:block;color:#E9E7E2;font-size:.93rem;line-height:1.45;margin-top:2px}
+.evthemes{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:8px 20px;color:#fff;font-weight:700;margin:0 0 26px;position:relative}
+.evthemes span{display:inline-flex;align-items:center;gap:9px;white-space:nowrap}
+.evthemes i{width:7px;height:7px;transform:rotate(45deg);background:var(--brass)}
+.event .promo .evnote{font-size:.86rem;color:#CFCDC8;max-width:520px;margin:18px auto 0}
+.qev{margin:16px 0 0 !important;font-size:.95rem}
+.qev a{color:#7A5F2B;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:600px){.evdays{grid-template-columns:1fr}.event .promo{padding:40px 18px}.event .promo .btn{width:100%;justify-content:center}}
+
+/* ===================== LIŠTA S EVENTOM + REGISTRÁCIA ===================== */
+.evbar{position:fixed;top:0;left:0;right:0;z-index:51;background:var(--brass);color:#1F1E1B;text-align:center;font-size:.86rem;font-weight:600;line-height:1.35;padding:8px 14px}
+.evbar b{font-weight:800}
+.evbar a{color:#1F1E1B;font-weight:800;text-decoration:underline;text-underline-offset:3px;white-space:nowrap;margin-left:4px}
+.evbar a:focus-visible{outline:2px solid #1F1E1B;outline-offset:2px;border-radius:3px}
+section{scroll-margin-top:90px}
+#registracia{scroll-margin-top:160px}
+.evsteps{list-style:none;counter-reset:ev;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:760px;margin:0 auto 26px;padding:0;position:relative;text-align:left}
+.evsteps li{counter-increment:ev;display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(226,204,151,.22);color:#E9E7E2;font-size:.9rem;line-height:1.35}
+.evsteps li::before{content:counter(ev);flex:none;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--brass);color:#1F1E1B;font-weight:800;font-size:.9rem}
+.evreg{margin:0 0 12px !important;color:var(--gold-soft);font-weight:700;font-size:1rem;position:relative}
+.evbar .evs{display:none}
+@media(max-width:600px){.evbar{font-size:.8rem;padding:7px 12px}.evbar .evl{display:none}.evbar .evs{display:inline}.evsteps{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 
-<div class="promo-bar" id="promoBar"><b>PROMO do 20. 10.:</b> začni teraz a získaj <b>pol roka alebo rok ZADARMO</b> · zostáva <span id="barTime">…</span></div>
 
+<div class="evbar" id="eventBar" data-event><b>Online event zadarmo</b> <span class="evl">The Future Is NOW – 14. a 15. novembra.</span><span class="evs">14. a 15. 11.</span> <a href="#registracia">Zaregistruj sa</a></div>
 <nav>
   <div class="wrap">
     <a href="#top" class="logo">Barbora Šmeringaiová</a>
     <div class="links">
+      <a href="#registracia" data-event>Event</a>
       <a href="#o-mne">O mne</a>
       <a href="#biznis">Biznis</a>
       <a href="#cesta">Cesta</a>
-      <a href="#videa">Videá</a>
+      <a href="#test">Test</a>
       <a href="#album">Album</a>
       <a class="lang" href="https://barboras22.github.io/barborasmeringai/" hreflang="it" lang="it" aria-label="Versione italiana"><span class="fl" aria-hidden="true">🇮🇹</span><span class="lc">IT</span></a>
       <a class="ig" href="https://www.instagram.com/barbora.smeringaiova/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 3.8c2.7 0 3 0 4 .1 2.7.1 4 1.4 4.1 4.1.1 1 .1 1.4.1 4s0 3-.1 4c-.1 2.7-1.4 4-4.1 4.1-1 .1-1.4.1-4 .1s-3 0-4-.1c-2.7-.1-4-1.4-4.1-4.1-.1-1-.1-1.4-.1-4s0-3 .1-4C3.9 5.3 5.3 3.9 8 3.9c1-.1 1.4-.1 4-.1zM12 2c-2.7 0-3.1 0-4.1.1C4.3 2.2 2.2 4.3 2.1 7.9 2 8.9 2 9.3 2 12s0 3.1.1 4.1c.2 3.6 2.2 5.7 5.8 5.8 1 .1 1.4.1 4.1.1s3.1 0 4.1-.1c3.6-.2 5.7-2.2 5.8-5.8.1-1 .1-1.4.1-4.1s0-3.1-.1-4.1c-.2-3.6-2.2-5.7-5.8-5.8C15.1 2 14.7 2 12 2z"/></svg></a>
@@ -508,11 +671,11 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
         <a href="#formular" class="btn gold">Chcem viac informácií</a>
         <a href="https://www.instagram.com/barbora.smeringaiova/" target="_blank" rel="noopener" class="btn ghost">Môj Instagram</a>
       </div>
+      <p class="herotest">Nevieš, kde začať? <a href="#test">Urob si krátky test na 30 sekúnd</a></p>
       <p class="visits" id="visits" hidden><span class="pulse" aria-hidden="true"></span><span><b id="visits-n"></b> <span id="visits-t">ľudí už navštívilo túto stránku</span></span></p>
     </div>
     <div class="arch reveal">
-      <img src="images/hero.jpg" alt="Barbora Šmeringaiová – portrét">
-      <span class="badge">Pol roka až rok zadarmo · do 20. 10.</span>
+      <img width="955" height="1400" src="images/hero.jpg" alt="Barbora Šmeringaiová – portrét">
     </div>
   </div>
 </header>
@@ -527,7 +690,7 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
 <!-- ============ O MNE ============ -->
 <section id="o-mne" class="about">
   <div class="wrap two">
-    <div class="frame reveal"><img src="images/about.jpg" alt="Barbora pracuje s laptopom" loading="lazy"></div>
+    <div class="frame reveal"><img width="1152" height="1400" src="images/about.jpg" alt="Barbora pracuje s laptopom" loading="lazy"></div>
     <div class="reveal">
       <span class="eyebrow">O mne</span>
       <h2>Kto som <em>dnes.</em></h2>
@@ -590,10 +753,10 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
       <p class="sub">Na sociálnych sieťach vidíš výsledky. Málokto ti ukáže unavené večery, skoré rána a chvíle, keď sa ti chce všetko vzdať. Tieto fotky sú z obdobia, keď som popri práci budovala niečo vlastné – a sú pre mňa dôkazom, že to stálo za to.</p>
     </div>
     <div class="jgrid">
-      <figure class="reveal"><img src="images/cesta-1.jpg" alt="Po pracovnej zmene" loading="lazy"><figcaption><b>Začiatky</b>Po 12-hodinových zmenách som makala ďalej, lebo som videla zmysel v tom, čo robím.</figcaption></figure>
-      <figure class="reveal"><img src="images/cesta-2.jpg" alt="Unavená doma" loading="lazy"><figcaption><b>Keď sa nechcelo</b>Boli dni, keď som nevládala a nechcela – a to je úplne v poriadku. Dôležité je, že ideš ďalej!</figcaption></figure>
-      <figure class="reveal"><img src="images/cesta-3.jpg" alt="Skoré ráno v zime" loading="lazy"><figcaption><b>Strach a vôľa</b>Strach? Áno, bol. Ale vôľa bola silnejšia.</figcaption></figure>
-      <figure class="reveal today"><img src="images/dnes.jpg" alt="Nový rank Consultant" loading="lazy"><figcaption><b>Dnes</b>Som Consultant – a v pláne mám toho ešte omnoho viac. Toto je len začiatok.</figcaption></figure>
+      <figure class="reveal"><img width="1050" height="1400" src="images/cesta-1.jpg" alt="Po pracovnej zmene" loading="lazy"><figcaption><b>Začiatky</b>Po 12-hodinových zmenách som makala ďalej, lebo som videla zmysel v tom, čo robím.</figcaption></figure>
+      <figure class="reveal"><img width="788" height="1400" src="images/cesta-2.jpg" alt="Unavená doma" loading="lazy"><figcaption><b>Keď sa nechcelo</b>Boli dni, keď som nevládala a nechcela – a to je úplne v poriadku. Dôležité je, že ideš ďalej!</figcaption></figure>
+      <figure class="reveal"><img width="1126" height="1400" src="images/cesta-3.jpg" alt="Skoré ráno v zime" loading="lazy"><figcaption><b>Strach a vôľa</b>Strach? Áno, bol. Ale vôľa bola silnejšia.</figcaption></figure>
+      <figure class="reveal today"><img width="840" height="1177" src="images/dnes.jpg" alt="Nový rank Consultant" loading="lazy"><figcaption><b>Dnes</b>Som Consultant – a v pláne mám toho ešte omnoho viac. Toto je len začiatok.</figcaption></figure>
     </div>
   </div>
 </section>
@@ -615,19 +778,78 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
   </div>
 </section>
 
-<!-- ============ VIDEÁ ============ -->
-<section id="videa" class="videos">
+<!-- ============ TEST: KDE SA NACHÁDZAŠ ============ -->
+<section id="test" class="quiz">
   <div class="wrap">
     <div class="reveal">
-      <span class="eyebrow">Moje videá</span>
-      <h2 class="sec-title">Spoznaj ma <em>bližšie.</em></h2>
-      <p class="sub">Krátke videá z môjho Instagramu – nech ma nielen čítaš, ale aj vidíš.</p>
+      <span class="eyebrow">Krátky test</span>
+      <h2 class="sec-title">Kde sa <em>nachádzaš ty?</em></h2>
+      <p class="sub">Štyri otázky a 30 sekúnd, bez mena aj e-mailu. Na konci uvidíš, čo by ti mohlo pomôcť – a ak chceš, pošleš mi výsledok na WhatsApp.</p>
     </div>
-    <div class="vgrid">
-      <figure class="vcard reveal"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DcG4mlEg2PE/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DcG4mlEg2PE/" target="_blank" rel="noopener"><span class="play" aria-hidden="true"></span>Pozrieť video na Instagrame</a></blockquote></figure>
-      <figure class="vcard reveal"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DcoIml4Agwv/" data-instgrm-version="14"><a href="https://www.instagram.com/p/DcoIml4Agwv/" target="_blank" rel="noopener"><span class="play" aria-hidden="true"></span>Pozrieť video na Instagrame</a></blockquote></figure>
+    <div class="qcard reveal" id="quiz">
+      <div class="qtop">
+        <div class="qprog" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        <span class="qstep" id="qstep" aria-live="polite"></span>
+      </div>
+      <div id="qbody"></div>
+      <div class="qnav"><button type="button" class="qlink" id="qback" hidden>Späť</button></div>
     </div>
-    <div class="vmore reveal"><a class="btn ghost" href="https://www.instagram.com/barbora.smeringaiova/" target="_blank" rel="noopener">Ďalšie videá na Instagrame</a></div>
+  </div>
+</section>
+
+<!-- ============ KALKULAČKA ============ -->
+<section id="kalkulacka" class="calc dark">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Kalkulačka</span>
+      <h2 class="sec-title">Čo robí čas s tvojimi <em>peniazmi?</em></h2>
+      <p class="sub">Posuň si sumu a počet rokov. Uvidíš, akú hodnotu budú mať tvoje peniaze v dnešných cenách – teda koľko si za ne reálne kúpiš, keď započítame infláciu.</p>
+    </div>
+    <div class="ccard reveal">
+      <div class="cin">
+        <label for="c-m">Mesačne odložím <output id="c-m-out" for="c-m">100 €</output></label>
+        <input type="range" id="c-m" min="25" max="1000" step="25" value="100">
+        <label for="c-y">Počas <output id="c-y-out" for="c-y">15 rokov</output></label>
+        <input type="range" id="c-y" min="1" max="30" step="1" value="15">
+        <p class="cpaid">Spolu vložíš <b id="c-paid">18 000 €</b></p>
+      </div>
+      <figure class="cchart" id="c-chart">
+        <figcaption id="c-cap">Hodnota po 15 rokoch</figcaption>
+        <p class="cunit">v dnešných cenách, po započítaní inflácie</p>
+        <p class="ckey"><i aria-hidden="true"></i><span id="c-key">vložené spolu 18 000 €</span></p>
+        <div class="cplot" id="c-plot">
+          <div class="crow"><span class="cname">Doma alebo na bežnom účte<small>bez úroku</small></span><div class="cbarwrap"><div class="cbar" id="c-b0" tabindex="0" role="img"></div><i class="ctick" aria-hidden="true"></i><span class="cval" id="c-v0"></span></div></div>
+          <div class="crow"><span class="cname">Sporenie v banke<small>úrok 2,5 % ročne</small></span><div class="cbarwrap"><div class="cbar" id="c-b1" tabindex="0" role="img"></div><i class="ctick" aria-hidden="true"></i><span class="cval" id="c-v1"></span></div></div>
+          <div class="crow"><span class="cname">Dlhodobé investovanie<small>svetové akcie, historický priemer 5,2 % ročne nad infláciu</small></span><div class="cbarwrap"><div class="cbar hi" id="c-b2" tabindex="0" role="img"></div><i class="ctick" aria-hidden="true"></i><span class="cval" id="c-v2"></span></div></div>
+          <div class="ctip" id="c-tip" role="tooltip"></div>
+        </div>
+        <details class="ctable"><summary>Zobraziť ako tabuľku</summary>
+          <table><thead><tr><th>Možnosť</th><th>V dnešných cenách</th><th id="c-th-nom">V eurách o 15 rokov</th></tr></thead>
+          <tbody id="c-tbody"></tbody></table>
+        </details>
+      </figure>
+      <p class="cinsight" id="c-insight"></p>
+    </div>
+    <div class="cshort reveal">
+      <div>
+        <h3>A krátkodobo?</h3>
+        <p>Pri krátkodobom obchodovaní (trading) sa výnos dopredu vypočítať nedá – môže prísť zisk, ale aj strata. Preto ti tu nesľúbim žiadne číslo. Ako to funguje a ako sa pri tom učiť pracovať s rizikom, ti ukážem osobne.</p>
+      </div>
+      <a class="btn gold" href="#formular">Napíš mi</a>
+    </div>
+    <p class="cnote">Predpoklady výpočtu: inflácia 3 % ročne (na Slovensku bola v septembri 2026 na úrovni 3,1 %), sporenie v banke s úrokom 2,5 % ročne (najlepšie termínované vklady slovenských bánk sú dnes približne 2 – 3 %), svetové akcie 5,2 % ročne nad infláciu – priemer rokov 1900 – 2024 podľa UBS Global Investment Returns Yearbook 2025. Vklad vždy na konci mesiaca, bez poplatkov a daní. Je to ilustračný výpočet, nie investičné odporúčanie ani prísľub výnosu – minulé výnosy nie sú zárukou budúcich a investovanie nesie riziko straty.</p>
+  </div>
+</section>
+
+<!-- ============ CITÁT: NIE LEN O PENIAZOCH ============ -->
+<section id="citat" class="saying">
+  <div class="wrap">
+    <figure class="quoteband reveal">
+      <span class="lz" aria-hidden="true"></span>
+      <blockquote><p>„Peniaze sú len jedna časť príbehu. Tá väčšia je, <em>kým sa na tej ceste staneš</em> – a&nbsp;s&nbsp;kým po nej pôjdeš.“</p></blockquote>
+      <figcaption>Barbora Šmeringaiová</figcaption>
+      <p class="saying-sub">Nie je to len o investovaní. Je to aj o osobnostnom raste a o ľuďoch, ktorými sa obklopíš – takých, čo majú rovnaké ciele a hodnoty a ťahajú ťa hore.</p>
+    </figure>
   </div>
 </section>
 
@@ -636,7 +858,7 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
   <div class="wrap">
     <div class="reveal">
       <span class="eyebrow">Ešte váhaš?</span>
-      <h2>Sleduješ moje videá, ale <em>ešte si nenapísal/a?</em></h2>
+      <h2>Dočítal/a si až sem, ale <em>ešte si mi nenapísal/a?</em></h2>
       <p class="sub">Rozumiem. Aj ja som kedysi sledovala iných a hovorila si „raz možno“. Toto sú otázky, ktoré som si kládla aj ja – a úprimné odpovede.</p>
     </div>
     <div class="dgrid">
@@ -652,7 +874,7 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
     <div class="dcta reveal">
       <p>Najhoršie, čo sa môže stať? Že sa dozvieš niečo nové.</p>
       <a href="#formular" class="btn gold">Napíšem ti</a>
-      <a href="https://www.instagram.com/barbora.smeringaiova/" target="_blank" rel="noopener" class="btn ghost">Pozrieť moje videá na Instagrame</a>
+      <a href="https://www.instagram.com/barbora.smeringaiova/" target="_blank" rel="noopener" class="btn ghost">Pozrieť môj Instagram</a>
     </div>
   </div>
 </section>
@@ -672,17 +894,17 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
       <button class="tab" data-f="svet">Môj svet</button>
     </div>
     <div class="grid">
-      <figure data-c="praca"><img src="images/work-laptop.jpg" alt="Práca s laptopom" loading="lazy"><figcaption>Moja kancelária je tam, kde sa práve nachádzam.</figcaption></figure>
-      <figure data-c="eventy"><img src="images/event1.jpg" alt="The Mastery, Rimini" loading="lazy"><figcaption>Rimini, The Mastery. Tisícky ľudí s rovnakým cieľom – tam som pochopila, že v tom nie som sama.</figcaption></figure>
-      <figure data-c="svet"><img src="images/passion.jpg" alt="Barbora s koňom" loading="lazy"><figcaption>Kone sú moja veľká láska. Konečne mám čas byť pri nich vtedy, keď chcem ja.</figcaption></figure>
-      <figure data-c="praca"><img src="images/trading.jpg" alt="Trading v mobile" loading="lazy"><figcaption>Áno, aj takto vyzerá môj pracovný deň – grafy v mobile a kôň pod sebou.</figcaption></figure>
-      <figure data-c="eventy"><img src="images/team-event.jpg" alt="Tím na evente" loading="lazy"><figcaption>Môj tím. Ľudia, ktorí ma posúvajú ďalej a pri ktorých rastiem každý deň.</figcaption></figure>
-      <figure data-c="svet"><img src="images/album-italy.jpg" alt="Taliansko" loading="lazy"><figcaption>Taliansko. Kus môjho srdca, kam stále chodím – aj za druhou časťou môjho tímu!</figcaption></figure>
-      <figure data-c="praca"><img src="images/album-cafe.jpg" alt="Barbora v kaviarni" loading="lazy"><figcaption>Smiala som sa, lebo mi došlo, že robím presne to, čo chcem.</figcaption></figure>
-      <figure data-c="eventy"><img src="images/girl-power.jpg" alt="Baby z tímu" loading="lazy"><figcaption>A hlavne – girl power nám nechýba!</figcaption></figure>
-      <figure data-c="eventy"><img src="images/event2.jpg" alt="Rimini Fiera" loading="lazy"><figcaption>Pred vstupom na event. Emócií aj očakávaní bolo veľa – ale to, čo sa naozaj udialo, predčilo všetko.</figcaption></figure>
-      <figure data-c="svet"><img src="images/horses.jpg" alt="Pri koňoch" loading="lazy"><figcaption>Pri koňoch som sa naučila trpezlivosti. V biznise ju potrebujem každý deň.</figcaption></figure>
-      <figure data-c="eventy"><img src="images/event-night.jpg" alt="Večerný event" loading="lazy"></figure>
+      <figure data-c="praca"><img width="1050" height="1400" src="images/work-laptop.jpg" alt="Práca s laptopom" loading="lazy"><figcaption>Moja kancelária je tam, kde sa práve nachádzam.</figcaption></figure>
+      <figure data-c="eventy"><img width="1050" height="1400" src="images/event1.jpg" alt="The Mastery, Rimini" loading="lazy"><figcaption>Rimini, The Mastery. Tisícky ľudí s rovnakým cieľom – tam som pochopila, že v tom nie som sama.</figcaption></figure>
+      <figure data-c="svet"><img width="1400" height="788" src="images/passion.jpg" alt="Barbora s koňom" loading="lazy"><figcaption>Kone sú moja veľká láska. Konečne mám čas byť pri nich vtedy, keď chcem ja.</figcaption></figure>
+      <figure data-c="praca"><img width="838" height="1400" src="images/trading.jpg" alt="Trading v mobile" loading="lazy"><figcaption>Áno, aj takto vyzerá môj pracovný deň – grafy v mobile a kôň pod sebou.</figcaption></figure>
+      <figure data-c="eventy"><img width="1400" height="1050" src="images/team-event.jpg" alt="Tím na evente" loading="lazy"><figcaption>Môj tím. Ľudia, ktorí ma posúvajú ďalej a pri ktorých rastiem každý deň.</figcaption></figure>
+      <figure data-c="svet"><img width="1050" height="1400" src="images/album-italy.jpg" alt="Taliansko" loading="lazy"><figcaption>Taliansko. Kus môjho srdca, kam stále chodím – aj za druhou časťou môjho tímu!</figcaption></figure>
+      <figure data-c="praca"><img width="934" height="1400" src="images/album-cafe.jpg" alt="Barbora sa smeje s laptopom" loading="lazy"><figcaption>Smiala som sa, lebo mi došlo, že robím presne to, čo chcem.</figcaption></figure>
+      <figure data-c="eventy"><img width="1050" height="1400" src="images/girl-power.jpg" alt="Baby z tímu" loading="lazy"><figcaption>A hlavne – girl power nám nechýba!</figcaption></figure>
+      <figure data-c="eventy"><img width="1050" height="1400" src="images/event2.jpg" alt="Rimini Fiera" loading="lazy"><figcaption>Pred vstupom na event. Emócií aj očakávaní bolo veľa – ale to, čo sa naozaj udialo, predčilo všetko.</figcaption></figure>
+      <figure data-c="svet"><img width="932" height="1400" src="images/horses.jpg" alt="Pri koňoch" loading="lazy"><figcaption>Pri koňoch som sa naučila trpezlivosti. V biznise ju potrebujem každý deň.</figcaption></figure>
+      <figure data-c="eventy"><img width="787" height="1400" src="images/event-night.jpg" alt="Večerný event" loading="lazy"></figure>
     </div>
   </div>
 </section>
@@ -695,32 +917,41 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
   <p id="lbcap"></p>
 </div>
 
-<!-- ============ PROMO ============ -->
-<section id="promo" class="promo-sec">
+<!-- ============ ONLINE EVENT ============ -->
+<section id="event" class="promo-sec event" data-event>
   <div class="wrap">
-    <div class="promo reveal">
-      <span class="eyebrow">Obmedzená ponuka</span>
-      <h2>Začni teraz a získaj <em>pol roka alebo celý rok zadarmo.</em></h2>
-      <div id="promoText">
-        <p>Ak sa ku mne pridáš do <strong style="color:#fff">20. 10.</strong>, môžeš mať prístup <strong style="color:#fff">6 alebo dokonca 12 mesiacov zadarmo</strong>. Čo presne je v ponuke práve pre teba, ti poviem osobne – stačí mi napísať.</p>
-        <div class="offer">
-          <div><strong>6 mesiacov</strong><span>zadarmo</span></div>
-          <div class="or">alebo</div>
-          <div><strong>12 mesiacov</strong><span>zadarmo</span></div>
-        </div>
-        <p>Ponuka platí len do 20. 10. Neodkladaj to – toto je presne ten moment, o ktorom som písala na začiatku.</p>
+    <div class="promo reveal" id="registracia">
+      <span class="eyebrow">Online event zadarmo</span>
+      <h2>The Future Is NOW – <em>14. a 15. novembra</em></h2>
+      <p>Dve popoludnia finančného vzdelávania naživo z Dubaja. Pripojíš sa odkiaľkoľvek – z mobilu aj z počítača a vstup je zadarmo.</p>
+      <div class="evdays">
+        <div class="evday"><b>14. 11. · 15:00 – 19:00</b><span>Objav, čo je možné</span></div>
+        <div class="evday"><b>15. 11. · 15:00 – 19:00</b><span>Prevezmi kontrolu nad svojou finančnou budúcnosťou</span></div>
       </div>
-      <div class="cd" id="cd">
-        <div><b id="d">0</b><small>dní</small></div>
-        <div><b id="h">0</b><small>hodín</small></div>
-        <div><b id="m">0</b><small>minút</small></div>
-        <div><b id="s">0</b><small>sekúnd</small></div>
-      </div>
-      <p class="ended" id="ended">Táto akcia už skončila – napíš mi a dám ti vedieť o ďalšej.</p>
-      <a href="#formular" class="btn gold">Zisti, čo je v ponuke pre teba</a>
+      <p class="evthemes"><span><i aria-hidden="true"></i>Zarábať</span><span><i aria-hidden="true"></i>Chrániť</span><span><i aria-hidden="true"></i>Zhodnocovať</span></p>
+      <p class="evreg">Registrácia zadarmo v 3 krokoch</p>
+      <ol class="evsteps"><li>Klikni na tlačidlo nižšie</li><li>Vyplň meno, e-mail a číslo na WhatsApp</li><li>Vstupenka ti príde e-mailom</li></ol>
+      <a class="btn gold" href="https://futureisnowevent.com/glowup/barbora-smeringaiova" target="_blank" rel="noopener">Zaregistrovať sa zadarmo</a>
+      <p class="evnote">Časy sú v slovenskom čase. Vstupenka ti príde e-mailom. Na VIP časť druhého dňa sa ma opýtaj na WhatsAppe.</p>
     </div>
   </div>
 </section>
+<script>
+window.EVENT_URL = "https://futureisnowevent.com/glowup/barbora-smeringaiova";
+window.EVENT_END = new Date("2026-11-15T19:00:00+01:00");
+document.addEventListener("DOMContentLoaded", function () {
+  var eb = document.querySelector("#eventBar a"); if (eb) eb.addEventListener("click", function () { try { if (window.goatcounter && goatcounter.count) goatcounter.count({path: "event-lista-klik", title: "event-lista-klik", event: true}); } catch (e) {} });
+  document.querySelectorAll('a[href^="https://futureisnowevent.com"]').forEach(function (a) {
+    a.addEventListener("click", function () { try { if (window.goatcounter && goatcounter.count) goatcounter.count({path: "event-klik", title: "event-klik", event: true}); } catch (e) {} });
+  });
+  if (new Date() < window.EVENT_END) return;
+  document.querySelectorAll("[data-event]").forEach(function (e) { e.remove(); });
+  document.documentElement.classList.add("noevent");
+  fitBar();
+});
+function fitBar() { var b = document.getElementById("eventBar"); document.querySelector("nav").style.top = (b ? b.offsetHeight : 0) + "px"; }
+document.addEventListener("DOMContentLoaded", fitBar); window.addEventListener("load", fitBar); window.addEventListener("resize", fitBar);
+</script>
 
 <!-- ============ FORMULÁR ============ -->
 <section id="formular" class="inquiry">
@@ -747,7 +978,7 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
       </div>
       <div class="row">
         <div><label for="i">Čo ťa zaujíma?</label>
-          <select id="i"><option>Promo – pol roka / rok zadarmo</option><option>Online biznis</option><option>Finančné vzdelávanie</option><option>Trading a investovanie</option><option>Spolupráca v tíme</option><option>Ešte neviem, chcem info</option></select></div>
+          <select id="i"><option>Online biznis</option><option>Finančné vzdelávanie</option><option>Trading a investovanie</option><option>Spolupráca v tíme</option><option data-event>Online event The Future Is NOW (14. – 15. 11.)</option><option>Ešte neviem, chcem info</option></select></div>
         <div><label for="u">Tvoje skúsenosti</label>
           <select id="u"><option>Začínam od nuly</option><option>Mám základy, chcem viac</option><option>Už niečo robím</option></select></div>
       </div>
@@ -772,7 +1003,7 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
       </div>
       <a href="#formular" class="btn">Vyplniť formulár</a>
     </div>
-    <div class="frame reveal"><img src="images/contact.jpg" alt="Barbora pod modrou oblohou" loading="lazy"></div>
+    <div class="frame reveal"><img width="933" height="1400" src="images/contact.jpg" alt="Barbora Šmeringaiová – čiernobiely portrét" loading="lazy"></div>
   </div>
 </section>
 
@@ -792,27 +1023,11 @@ nav .links a.lang.lang .fl{font-size:1rem;line-height:1}
 <script>
 /* ===== NASTAVENIA ===== */
 const WHATSAPP="421907654110";
-const PROMO_END=new Date("2026-10-20T23:59:59+02:00");
 
 document.getElementById('y').textContent=new Date().getFullYear();
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
-/* Odpočet promo */
-function tick(){
-  const diff=PROMO_END-new Date();
-  if(diff<=0){['cd','promoText','promoBar'].forEach(id=>document.getElementById(id).style.display='none');
-    document.getElementById('ended').style.display='block';document.querySelector('.promo h2').textContent='Promo už skončilo';document.querySelector('.promo .btn').textContent='Napíš mi';document.querySelector('.badge').style.display='none';
-    document.querySelector('nav').style.top='0';return;}
-  const d=Math.floor(diff/864e5),h=Math.floor(diff/36e5)%24,m=Math.floor(diff/6e4)%60,s=Math.floor(diff/1e3)%60;
-  d_.textContent=d;h_.textContent=h;m_.textContent=m;s_.textContent=s;
-  document.getElementById('barTime').textContent=`${d} d ${h} h ${m} min`;
-}
-const d_=document.getElementById('d'),h_=document.getElementById('h'),m_=document.getElementById('m'),s_=document.getElementById('s');
-tick();setInterval(tick,1000);
-/* lišta promo – menu vždy pod ňou */
-function fitBar(){const b=document.getElementById('promoBar');document.querySelector('nav').style.top=(b&&b.style.display!=='none'?b.offsetHeight:0)+'px';}
-window.addEventListener('resize',fitBar);fitBar();
 
 
 /* Album: filter + lightbox */
@@ -870,8 +1085,6 @@ Prečo: ${v('w')}`;
   setTimeout(() => box.classList.add("on"), 900);
 })();
 </script>
-<!-- videá z Instagramu -->
-<script async src="https://www.instagram.com/embed.js"></script>
 <script>
 /* ===== POČET NÁVŠTEV (GoatCounter) =====
    Sčíta slovenskú aj taliansku verziu. Číslo sa ukáže, keď je návštev aspoň MIN_VISITS. */
@@ -890,6 +1103,159 @@ Prečo: ${v('w')}`;
       document.getElementById("visits-t").textContent = n === 1 ? "človek už navštívil túto stránku" : (n < 5 ? "ľudia už navštívili túto stránku" : "ľudí už navštívilo túto stránku");
       document.getElementById("visits").hidden = false;
     });
+})();
+</script>
+
+<script>
+/* ===================== TEST: KDE SA NACHÁDZAŠ ===================== */
+(function(){
+  const WA = "421907654110";
+  const Q = [
+    {q: "Čo ťa teraz najviac vystihuje?", key: "Moja situácia", a: [
+      "Pracujem, ale na konci mesiaca mi skoro nič nezostane.",
+      "Niečo si odložím, ale peniaze mi len ležia v banke.",
+      "Chcem niečo vlastné, len neviem, kde začať.",
+      "Už som niečo skúšal/a, ale bez výsledku."]},
+    {q: "Koľko času týždenne by si tomu vedel/a dať?", key: "Čas týždenne", a: [
+      "Menej ako 3 hodiny", "3 až 7 hodín", "Viac ako 7 hodín"]},
+    {q: "Čo ťa zaujíma najviac?", key: "Zaujíma ma", a: [
+      "Pochopiť, ako fungujú peniaze", "Dlhodobo budovať majetok", "Trading a krátkodobé príležitosti", "Príjem popri práci"]},
+    {q: "Čo ťa doteraz najviac brzdilo?", key: "Doteraz ma brzdilo", a: [
+      "Nevedel/a som, komu veriť", "Nemal/a som čas", "Strach, že prídem o peniaze", "Nemal/a som nikoho, kto by ma viedol"]}
+  ];
+  const R = [
+    ["Pracuješ, ale peniaze ti pretekajú pomedzi prsty.", "Takto začínala väčšina z nás – aj ja. Prvý krok nie je hneď zarábať viac, ale pochopiť, kam peniaze idú, a naučiť sa s nimi pracovať."],
+    ["Šetríš – ale tvoje peniaze spia.", "Je super, že si odkladáš. Lenže v banke s nízkym úrokom ich inflácia potichu zmenšuje. Nižšie v kalkulačke uvidíš, aký je v tom rozdiel."],
+    ["Chuť máš, chýba ti len mapa.", "Najťažšie je vedieť, kde začať. Presne na to je spoločný plán – krok za krokom, bez toho, aby si musel/a všetko vedieť hneď."],
+    ["Neprestal/a si – len ti chýbal systém.", "To, že niečo nevyšlo, neznamená, že to nejde. Často chýba len jasný postup a niekto, kto ťa podrží, keď sa nedarí."]
+  ];
+  const T2 = ["Aj pár hodín týždenne stačí na to, aby si sa začal/a učiť – dôležitá je pravidelnosť.",
+              "3 až 7 hodín týždenne je dobrý základ, aby si sa učil/a a postupne napredoval/a.",
+              "S viac ako 7 hodinami týždenne môžeš napredovať rýchlejšie – a ja ti pomôžem ten čas dobre využiť."];
+  const T3 = ["Chceš pochopiť, ako fungujú peniaze – a presne tam má zmysel začať.",
+              "Zaujíma ťa dlhodobé budovanie majetku – pozri sa nižšie do kalkulačky, čo s peniazmi robí čas.",
+              "Zaujíma ťa trading – ukážem ti osobne, ako to funguje aj s rizikami, bez sľubov.",
+              "Zaujíma ťa príjem popri práci – porozprávame sa, ako to vyzerá v praxi a čo to obnáša."];
+  const T4 = ["A dôvera? Na nič sa nemusíš hneď rozhodnúť – najprv sa porozprávame a všetko si overíš sám/sama.",
+              "A čas? Všetko je online, ide to aj popri práci – vlastným tempom.",
+              "A strach je normálny. Povieme si aj o rizikách, nielen o výsledkoch.",
+              "A to, že ťa nikto neviedol, sa môže zmeniť – garantujem ti moju podporu a pomoc."];
+  const ans = [];
+  let i = 0;
+  const body = document.getElementById("qbody"), step = document.getElementById("qstep"), back = document.getElementById("qback");
+  const marks = [...document.querySelectorAll("#quiz .qprog i")];
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const track = p => { try { if (window.goatcounter && goatcounter.count) goatcounter.count({path: p, title: p, event: true}); } catch(e) {} };
+  function el(tag, cls, text){ const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function progress(){ marks.forEach((m, k) => { m.classList.toggle("done", k < i || i >= Q.length); m.classList.toggle("now", k === i); }); }
+  function show(focus){
+    body.textContent = ""; progress();
+    if (i >= Q.length) return result(focus);
+    step.textContent = "Otázka " + (i + 1) + " zo " + Q.length;
+    back.hidden = i === 0; back.parentNode.hidden = i === 0;
+    const wrap = el("div", "qq qfade"), h = el("h3", null, Q[i].q); h.tabIndex = -1; wrap.appendChild(h);
+    const box = el("div", "qopts"); box.setAttribute("role", "group"); box.setAttribute("aria-label", Q[i].q);
+    Q[i].a.forEach((t, k) => {
+      const b = el("button", "qopt", t); b.type = "button"; b.setAttribute("aria-pressed", ans[i] === k ? "true" : "false");
+      b.onclick = () => { ans[i] = k; b.setAttribute("aria-pressed", "true"); setTimeout(() => { i++; show(true); }, reduce ? 0 : 220); };
+      box.appendChild(b);
+    });
+    wrap.appendChild(box); body.appendChild(wrap);
+    if (focus) h.focus({preventScroll: true});
+  }
+  function result(focus){
+    step.textContent = "Hotovo"; back.hidden = true; back.parentNode.hidden = true;
+    const r = R[ans[0]], wrap = el("div", "qres qfade");
+    wrap.appendChild(el("p", "qkick", "Tvoj výsledok"));
+    const h = el("h3", null, r[0]); h.tabIndex = -1; wrap.appendChild(h);
+    wrap.appendChild(el("p", null, r[1]));
+    const ul = el("ul"); [T2[ans[1]], T3[ans[2]], T4[ans[3]]].forEach(t => ul.appendChild(el("li", null, t))); wrap.appendChild(ul);
+    const msg = "Ahoj Barbora, vyplnil/a som test na tvojej stránke ✨\n" + Q.map((q, k) => q.key + ": " + q.a[ans[k]]).join("\n") + "\nChcem vedieť, ako by som mohol/mohla začať.";
+    const cta = el("div", "qcta");
+    const wa = el("a", "btn gold", "Poslať výsledok na WhatsApp"); wa.href = "https://wa.me/" + WA + "?text=" + encodeURIComponent(msg); wa.target = "_blank"; wa.rel = "noopener";
+    wa.addEventListener("click", () => track("test-whatsapp"));
+    const calc = el("a", "btn ghost", "Pozrieť kalkulačku"); calc.href = "#kalkulacka";
+    cta.append(wa, calc); wrap.appendChild(cta);
+    if (window.EVENT_URL && new Date() < window.EVENT_END) {
+      const ev = el("p", "qev", "Chceš si to najprv len vypočuť? "); const ea = el("a", null, "Príď na online event zadarmo 14. – 15. 11.");
+      ea.href = window.EVENT_URL; ea.target = "_blank"; ea.rel = "noopener"; ea.addEventListener("click", () => track("event-klik-z-testu"));
+      ev.appendChild(ea); wrap.appendChild(ev);
+    }
+    const again = el("button", "qlink", "Začať odznova"); again.type = "button"; again.style.marginTop = "14px";
+    again.onclick = () => { ans.length = 0; i = 0; show(true); };
+    wrap.appendChild(again);
+    body.appendChild(wrap);
+    if (focus) h.focus({preventScroll: true});
+    track("test-dokonceny");
+  }
+  back.onclick = () => { if (i > 0) { i--; show(true); } };
+  show(false);
+})();
+
+/* ===================== KALKULAČKA ===================== */
+(function(){
+  const INFL = 0.03, BANK = 0.025, REAL_STOCKS = 0.052;
+  const NAMES = ["Doma alebo na bežnom účte", "Sporenie v banke", "Dlhodobé investovanie"];
+  const RATES = [0, BANK, (1 + REAL_STOCKS) * (1 + INFL) - 1];      // nominálne ročné
+  const nf = new Intl.NumberFormat("sk-SK", {maximumFractionDigits: 0});
+  const eur = x => nf.format(Math.round(x / 10) * 10) + " €";
+  const $ = id => document.getElementById(id);
+  const m = $("c-m"), y = $("c-y");
+  const yrsAcc = n => n + " " + (n === 1 ? "rok" : n < 5 ? "roky" : "rokov");
+  const yrsGen = n => n + " " + (n === 1 ? "roka" : "rokov");
+  const yrsLoc = n => n + " " + (n === 1 ? "roku" : "rokoch");
+  let used = false;
+  function fv(P, R, n){ const r = Math.pow(1 + R, 1/12) - 1; return r === 0 ? P * n : P * (Math.pow(1 + r, n) - 1) / r; }
+  function fill(inp){ inp.style.setProperty("--p", ((inp.value - inp.min) / (inp.max - inp.min) * 100) + "%"); }
+  function render(){
+    const P = +m.value, Y = +y.value, n = Y * 12, defl = Math.pow(1 + INFL, Y), paid = P * n;
+    const nom = RATES.map(R => fv(P, R, n)), real = nom.map(v => v / defl);
+    $("c-m-out").textContent = eur(P); $("c-y-out").textContent = yrsGen(Y);
+    m.setAttribute("aria-valuetext", eur(P) + " mesačne"); y.setAttribute("aria-valuetext", yrsGen(Y));
+    $("c-paid").textContent = eur(paid);
+    $("c-cap").textContent = "Hodnota po " + yrsLoc(Y);
+    $("c-th-nom").textContent = "V eurách o " + yrsAcc(Y);
+    const max = Math.max(paid, ...real) / 0.74;
+    real.forEach((v, k) => {
+      const w = v / max * 100, bar = $("c-b" + k), val = $("c-v" + k);
+      bar.style.width = w + "%"; val.style.left = "calc(" + w + "% + 4px)"; val.textContent = eur(v);
+      bar.setAttribute("aria-label", NAMES[k] + ": " + eur(v) + " v dnešných cenách, " + eur(nom[k]) + " v eurách o " + yrsAcc(Y));
+      bar.dataset.tip = JSON.stringify([NAMES[k], eur(v), eur(nom[k]), yrsAcc(Y)]);
+    });
+    const rp = paid / max * 100; document.querySelectorAll("#c-plot .ctick").forEach(t => t.style.left = "calc(" + rp + "% - 1px)"); $("c-key").textContent = "vložené spolu " + eur(paid);
+    const tb = $("c-tbody"); tb.textContent = "";
+    [[ "Vložené spolu", paid, paid ]].concat(real.map((v, k) => [NAMES[k], v, nom[k]])).forEach(r => {
+      const tr = document.createElement("tr");
+      [r[0], eur(r[1]), eur(r[2])].forEach(t => { const td = document.createElement("td"); td.textContent = t; tr.appendChild(td); });
+      tb.appendChild(tr);
+    });
+    $("c-insight").innerHTML = "";
+    const ins = $("c-insight");
+    const a = document.createTextNode("Ak budeš " + yrsAcc(Y) + " odkladať " + eur(P) + " mesačne doma, stratia tvoje peniaze v dnešných cenách približne ");
+    const b1 = document.createElement("b"); b1.textContent = eur(paid - real[0]);
+    const c = document.createTextNode(" zo svojej hodnoty. Pri historickom priemere svetových akcií by mali hodnotu približne ");
+    const b2 = document.createElement("b"); b2.textContent = eur(real[2]);
+    const d = document.createTextNode(" – zaručené to však nie je, výsledok môže byť vyšší, nižší aj strata.");
+    ins.append(a, b1, c, b2, d);
+    fill(m); fill(y);
+  }
+  [m, y].forEach(inp => inp.addEventListener("input", () => { render(); if (!used) { used = true; try { if (window.goatcounter && goatcounter.count) goatcounter.count({path: "kalkulacka-pouzita", title: "kalkulacka-pouzita", event: true}); } catch(e) {} } }));
+  const tip = $("c-tip"), plot = $("c-plot");
+  function showTip(bar){
+    const t = JSON.parse(bar.dataset.tip || "[]"); if (!t.length) return;
+    tip.textContent = "";
+    const s1 = document.createElement("span"); s1.textContent = t[0];
+    const b = document.createElement("b"); b.textContent = t[1];
+    const s2 = document.createElement("span"); s2.textContent = "v dnešných cenách · " + t[2] + " v eurách o " + t[3];
+    tip.append(s1, b, s2);
+    const pr = plot.getBoundingClientRect(), br = bar.getBoundingClientRect();
+    let left = Math.min(br.right - pr.left + 8, pr.width - 200); left = Math.max(0, left);
+    tip.style.left = left + "px"; tip.style.top = (br.top - pr.top - 64) + "px"; tip.classList.add("on");
+  }
+  [0, 1, 2].forEach(k => { const bar = $("c-b" + k);
+    bar.addEventListener("pointerenter", () => showTip(bar)); bar.addEventListener("focus", () => showTip(bar));
+    bar.addEventListener("pointerleave", () => tip.classList.remove("on")); bar.addEventListener("blur", () => tip.classList.remove("on")); });
+  render();
 })();
 </script>
 <!-- počítadlo návštev (GoatCounter – bez cookies) -->
